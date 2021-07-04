@@ -51,6 +51,7 @@ h2{
     background-position: right bottom;
     padding-right: 5%;
 }
+/*Exprience section desgin*/
 .experience-area{
     background-image: url(./images/exp-bg.png);
     background-repeat: no-repeat;
@@ -65,10 +66,18 @@ h2{
     box-shadow: 10px 10px 30px gray;
     border-radius: 15px;
 }
-.left2-broder{
-    border-left: 8px solid orange;
+#left2-broder{
+   border-left: 7px solid;
+   border-image: linear-gradient(red, green);
+   border-image-slice:1;
 }
-.left1-broder{
-    border-left: 8px solid green;
+#left1-broder{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue, cyan);
+    border-image-slice: 1 ;
 
+}
+footer p{
+     text-align: center;
+     color: aqua;
 }
